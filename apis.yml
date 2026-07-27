@@ -1,7 +1,31 @@
 aid: intraware
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intraware.png
 name: Intraware
-description: Intraware is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Intraware, Inc. was a software delivery and entitlement-management company
+  founded in 1996 and headquartered in Orinda, California. Its flagship
+  SubscribeNet service gave enterprise software publishers a web-based
+  electronic software delivery (ESD) and license-management platform, delivering
+  applications through an encryption, compression, and multi-server distribution
+  engine while giving corporate IT subscribers account-specific entitlement,
+  update, and download information. Intraware went public on NASDAQ under the
+  ticker ITRA in 1999 during the dot-com boom, was backed by investors including
+  Canaan Partners, and was acquired in 2009 by Acresso Software (later Flexera
+  Software). Its SubscribeNet software-monetization capabilities live on today as
+  part of Revenera; there is no independent Intraware developer program, public
+  API, or documentation surface. This profile was surfaced as a Canaan Partners
+  portfolio company and is retained as a historical VC-portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/intraware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,33 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Acresso/Flexera Software (2009); SubscribeNet capabilities now part of Revenera. No independent API surface.
+x-successor: revenera
+x-founded: '1996'
+x-headquarters: Orinda, California, United States
+x-former-ticker: NASDAQ:ITRA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Software Delivery
+- Electronic Software Delivery
+- Software License Management
+- Entitlement Management
+- Software Monetization
+- Enterprise Software
+- Acquired
+- Historical
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
